@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Prueba</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+  <!-- Navegación -->
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Mi Proyecto</h1>
+      <ul class="nav-links">
+        <li><a href="#about">Acerca de</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-content">
+      <h1>Tu Negocio, Nuestra Pasión</h1>
+      <p>Transformamos tus ideas en soluciones digitales</p>
+      <a href="#contact" class="btn">Contáctanos</a>
+    </div>
+  </header>
+
+  <!-- Acerca de Nosotros -->
+  <section id="about" class="about">
+    <div class="container about-grid">
+      <img src="img/nosotros.jpeg" alt="Nosotros">
+      <div>
+        <h2>Acerca de Nosotros</h2>
+        <p>Somos un equipo apasionado por la tecnología y el diseño. Ayudamos a nuestros clientes a construir soluciones innovadoras y visualmente atractivas que impulsan su negocio.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="services" class="services">
+    <h2 class="section-title">Nuestros Servicios</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Desarrollo Web</h3>
+        <p>Creación de sitios modernos, optimizados y responsivos.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>Apps Móviles</h3>
+        <p>Aplicaciones funcionales y fáciles de usar para iOS y Android.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-chart-line"></i>
+        <h3>Marketing Digital</h3>
+        <p>Mejoramos la presencia online de tu negocio.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="projects" class="projects">
+    <h2 class="section-title">Proyectos Destacados</h2>
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="carousel-item" style="background-image: url('img/descarga.jpeg');">
+          <h3>Proyecto 1</h3>
+          <p>Descripción del proyecto 1</p>
+        </div>
+        <div class="carousel-item" style="background-image: url('img/gato2.jpeg');">
+          <h3>Proyecto 2</h3>
+          <p>Descripción del proyecto 2</p>
+        </div>
+        <div class="carousel-item" style="background-image: url('img/nosotros.jpeg');">
+          <h3>Proyecto 3</h3>
+          <p>Descripción del proyecto 3</p>
+        </div>
+      </div>
+      <button class="carousel-btn prev"><i class="fas fa-chevron-left"></i></button>
+      <button class="carousel-btn next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contáctanos</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Botón Flotante Redes Sociales -->
+  <div class="floating-social">
+    <button class="social-btn"><i class="fas fa-share-alt"></i></button>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
